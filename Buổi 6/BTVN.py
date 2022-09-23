@@ -1,0 +1,9 @@
+# Ex1
+# arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# addval = 2
+# arradd2 = [i+addval for i in arr]
+# print(arradd2)
+# arrmul2 = [i*addval for i in arr]
+# print(arrmul2)
+
+# Ex2

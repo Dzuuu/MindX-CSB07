@@ -54,12 +54,12 @@
 #     print("This month does not have 31 days")
 
 # Part 4
-print("== Registration ==")
-Username = input("Input an email: ")
-x = Username.split("@.")
-Password = input("Input a password: ")
-RePassword = input("Repeat password above: ")
-if Password == RePassword:
-    print("Registered successfully.")
-elif Password != RePassword:
-    print("Passwords do not match")
+# print("==Registration==")
+# Username = input("Input your email: ")
+# Password = input("Input your password: ")
+# rePass = input("ReEnter your password: ")
+# if Password == rePass:
+#     print("Registered successfully")
+# else:
+#     print("Try again")
+
