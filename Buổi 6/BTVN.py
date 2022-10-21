@@ -1,9 +1,10 @@
-# Ex1
-# arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-# addval = 2
-# arradd2 = [i+addval for i in arr]
-# print(arradd2)
-# arrmul2 = [i*addval for i in arr]
-# print(arrmul2)
-
-# Ex2
+# Ex3
+fibonacci = [1,1]
+num = int(input("Input a positive number: "))
+print('First 1 Fibonacci number(s): ')
+if num<=2:
+    for i in range(num):
+        print(fibonacci[i])
+else:
+    for i in range(2,num):
+        fibonacci.append(fibonacci[i-1]+fibonacci[i+2])
