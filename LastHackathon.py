@@ -1,8 +1,8 @@
 # Ex1
-# a1 = int(input("Input first number: "))
-# a2 = int(input("Input second number: "))
-# c = a1 + a2
-# print(f"{a1}+{a2} = c")
+a1 = int(input("Input first number: "))
+a2 = int(input("Input second number: "))
+c = a1 + a2
+print(f"{a1}+{a2} = {c}")
 
 # Ex2
 # import math
