@@ -27,22 +27,22 @@
 # print("+ ", students)
 
 # Ex5
-names = {
-'students': [
-   {'firstName': 'Nikki', 'lastName': 'Roysden'},
-   {'firstName': 'Mervin', 'lastName': 'Friedland'},
-   {'firstName': 'Aron', 'lastName': 'Wilkins'}
-   ],
-'teachers': [
-   {'firstName': 'Amberly', 'lastName': 'Calico'},
-   {'firstName': 'Regine', 'lastName': 'Agtarap'}
-   ]
-}
+# names = {
+# 'students': [
+#    {'firstName': 'Nikki', 'lastName': 'Roysden'},
+#    {'firstName': 'Mervin', 'lastName': 'Friedland'},
+#    {'firstName': 'Aron', 'lastName': 'Wilkins'}
+#    ],
+# 'teachers': [
+#    {'firstName': 'Amberly', 'lastName': 'Calico'},
+#    {'firstName': 'Regine', 'lastName': 'Agtarap'}
+#    ]
+# }
 
-for x,y in names.items():
-    print(f'List of {x}')
-    for dic_name_person in y:
-        print("-", end = " ")
-        for name_person in dic_name_person.values():
-            print(name_person,end =" ")
-        print()
+# for x,y in names.items():
+#     print(f'List of {x}')
+#     for dic_name_person in y:
+#         print("-", end = " ")
+#         for name_person in dic_name_person.values():
+#             print(name_person,end =" ")
+#         print()
